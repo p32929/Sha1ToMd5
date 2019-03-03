@@ -20,6 +20,7 @@ const style = {
     },
     TypographyToolbar: {
         color: '#FFF',
+        flexGrow: 1,
     },
     TypographyBox: {
         marginTop: 16,
