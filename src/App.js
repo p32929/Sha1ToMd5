@@ -83,7 +83,7 @@ class App extends Component {
         else {
             this.setState({
                 open: true,
-                snackbarText: 'Please input SHA1 value first'
+                snackbarText: 'Please input a SHA1 value first'
             })
 
             setTimeout(() => {
