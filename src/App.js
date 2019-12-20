@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import AppBar from "@material-ui/core/es/AppBar/AppBar";
 import Toolbar from "@material-ui/core/es/Toolbar/Toolbar";
@@ -61,10 +61,11 @@ class App extends Component {
     }
 
     setSha1(e) {
-        console.log(e.target.value)
         if (e.target.value != null) {
             this.setState({
                 sha1: e.target.value.toString().trim()
+            }, () => {
+                this.setMd5()
             })
         }
     }
@@ -85,15 +86,8 @@ class App extends Component {
         }
         else {
             this.setState({
-                open: true,
-                snackbarText: 'Please input a SHA1 value first'
-            })
-
-            setTimeout(() => {
-                this.setState({
-                    open: false
-                })
-            }, 2000)
+                md5: ''
+            })  
         }
     }
 
@@ -150,7 +144,7 @@ class App extends Component {
     render() {
         return (
 
-            <Grid style={style.root} direction="row" spacing={16}>
+            <Grid container style={style.root} direction="row" spacing={16}>
                 <AppBar position='static' style={style.AppBar}>
                     <Toolbar>
                         <Typography variant="h6" style={style.TypographyToolbar}>
@@ -162,7 +156,7 @@ class App extends Component {
                             color="inherit">
                             <SvgIcon>
                                 <path
-                                    d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2 0 1.9 1.2 1.9 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8 0 3.2.9.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1 .9 2.2v3.3c0 .3.1.7.8.6A12 12 0 0 0 12 .3"/>
+                                    d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2 0 1.9 1.2 1.9 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8 0 3.2.9.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1 .9 2.2v3.3c0 .3.1.7.8.6A12 12 0 0 0 12 .3" />
                             </SvgIcon>
                         </IconButton>
 
@@ -190,14 +184,14 @@ class App extends Component {
                             <TextField
                                 label="MD5"
                                 margin="normal"
-                                value={this.state.md5}/>
+                                value={this.state.md5} />
 
                         </Grid>
 
                         <Grid container direction='row' justify='center' alignContent='center'>
-                            <Button style={style.ButtonLeft} variant="contained" color="primary" onClick={this.setMd5}>
+                            {/* <Button style={style.ButtonLeft} variant="contained" color="primary" onClick={this.setMd5}>
                                 Convert
-                            </Button>
+                            </Button> */}
                             <Button style={style.ButtonRight} variant="contained" color="primary" onClick={this.copy}>
                                 Copy
                             </Button>
