@@ -1,44 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sha1ToMd5
+A simple Web App that converts SHA1 values to Facebook MD5. It can be handy when you need to generate MD5 values for your facebook app from your Google Play console
 
-## Available Scripts
+Live: https://p32929.github.io/Sha1ToMd5/
 
-In the project directory, you can run:
+[![](https://badgen.net/github/release/p32929/Sha1ToMd5)]() [![](https://badgen.net/github/release/p32929/Sha1ToMd5/stable)]() [![](https://badgen.net/github/tag/p32929/Sha1ToMd5)]() [![](https://badgen.net/github/watchers/p32929/Sha1ToMd5)]() [![](https://badgen.net/github/checks/p32929/Sha1ToMd5)]() [![](https://badgen.net/github/status/p32929/Sha1ToMd5)]() [![](https://badgen.net/github/stars/p32929/Sha1ToMd5)]() [![](https://badgen.net/github/forks/p32929/Sha1ToMd5)]() [![](https://badgen.net/github/issues/p32929/Sha1ToMd5)]() [![](https://badgen.net/github/open-issues/p32929/Sha1ToMd5)]() [![](https://badgen.net/github/closed-issues/p32929/Sha1ToMd5)]() [![](https://badgen.net/github/label-issues/p32929/Sha1ToMd5/help-wanted/open)]() [![](https://badgen.net/github/prs/p32929/Sha1ToMd5)]() [![](https://badgen.net/github/open-prs/p32929/Sha1ToMd5)]() [![](https://badgen.net/github/closed-prs/p32929/Sha1ToMd5)]() [![](https://badgen.net/github/merged-prs/p32929/Sha1ToMd5)]() [![](https://badgen.net/github/commits/p32929/Sha1ToMd5)]() [![](https://badgen.net/github/last-commit/p32929/Sha1ToMd5)]() [![](https://badgen.net/github/branches/p32929/Sha1ToMd5)]() [![](https://badgen.net/github/releases/p32929/Sha1ToMd5)]() [![](https://badgen.net/github/tags/p32929/Sha1ToMd5)]() [![](https://badgen.net/github/license/p32929/Sha1ToMd5)]() [![](https://badgen.net/github/contributors/p32929/Sha1ToMd5)]() [![](https://badgen.net/github/dependents-pkg/p32929/Sha1ToMd5)]() 
 
-### `npm start`
+## Share
+Sharing with your friends is just one click away from here
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[![facebook](https://image.flaticon.com/icons/png/32/124/124010.png)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/p32929/Sha1ToMd5)
+[![twitter](https://image.flaticon.com/icons/png/32/124/124021.png)](https://twitter.com/intent/tweet?source=https://github.com/p32929/Sha1ToMd5)
+[![tumblr](https://image.flaticon.com/icons/png/32/124/124012.png)](https://www.tumblr.com/share?v=3&u=https://github.com/p32929/Sha1ToMd5)
+[![pocket](https://image.flaticon.com/icons/png/32/732/732238.png)](https://getpocket.com/save?url=https://github.com/p32929/Sha1ToMd5)
+[![pinterest](https://image.flaticon.com/icons/png/32/124/124039.png)](https://pinterest.com/pin/create/button/?url=https://github.com/p32929/Sha1ToMd5)
+[![reddit](https://image.flaticon.com/icons/png/32/2111/2111589.png)](https://www.reddit.com/submit?url=https://github.com/p32929/Sha1ToMd5)
+[![linkedin](https://image.flaticon.com/icons/png/32/1409/1409945.png)](https://www.linkedin.com/shareArticle?mini=true&url=https://github.com/p32929/Sha1ToMd5)
+[![whatsapp](https://image.flaticon.com/icons/png/32/733/733585.png)](https://api.whatsapp.com/send?text=https://github.com/p32929/Sha1ToMd5)
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Support
+If you like my works and want to support me/my works, feel free to support or donate. My payment details can be found here: https://p32929.github.io/SendMoney2Me/
