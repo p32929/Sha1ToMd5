@@ -1,11 +1,27 @@
 # Sha1ToMd5
-A simple Web App that converts SHA1 values to Facebook MD5. It can be handy when you need to generate MD5 values for your facebook app from your Google Play console
 
-Live: https://p32929.github.io/Sha1ToMd5/
+A tiny web tool that converts a SHA-1 key hash into the colon-separated MD5 format Facebook wants for Android key hashes. Paste your release SHA-1, get the value to drop into your Facebook app's Android settings.
+
+**Live:** https://p32929.github.io/Sha1ToMd5/
+
+## Why this exists
+
+When you set up Facebook Login in an Android app, Facebook asks for a **key hash**. Your Google Play release signing key gives you a SHA-1 fingerprint, but Facebook's field expects a different format — this converts one to the other so Facebook Login works on your Play-signed build.
+
+## How to use
+
+1. Open the [live tool](https://p32929.github.io/Sha1ToMd5/)
+2. Paste your release **SHA-1** value
+3. Copy the converted value into your Facebook app's Android key-hash field
+
+It all runs in your browser — nothing is sent anywhere.
+
+
 
 ## License
 
 MIT License — Copyright (c) 2020 Fayaz Bin Salam. See [LICENSE](LICENSE) for the full text.
+
 
 ## Contributing
 
@@ -20,6 +36,7 @@ Before submitting a pull request, please:
 
 This approach helps avoid duplicate efforts and ensures smooth collaboration. Thank you for considering contributing!
 
+
 ## Share
 
 Sharing this repository with your friends is just one click away from here
@@ -32,6 +49,7 @@ Sharing this repository with your friends is just one click away from here
 [![reddit](https://user-images.githubusercontent.com/6418354/179013338-7416ae3f-73ba-4522-86e1-1374d7082d22.png)](https://www.reddit.com/submit?url=https://github.com/p32929/Sha1ToMd5/)
 [![linkedin](https://user-images.githubusercontent.com/6418354/179013327-ca7b7102-1da8-4b1c-858f-1a6e5f21bd70.png)](https://www.linkedin.com/shareArticle?mini=true&url=https://github.com/p32929/Sha1ToMd5/)
 [![whatsapp](https://user-images.githubusercontent.com/6418354/179013353-f477fa0b-3e6f-4138-a357-c9991b23ff88.png)](https://api.whatsapp.com/send?text=https://github.com/p32929/Sha1ToMd5/)
+
 
 ---
 
